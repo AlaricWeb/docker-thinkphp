@@ -2,6 +2,8 @@ FROM composer
 
 FROM  php:7.4-fpm
 
+LABEL org.opencontainers.image.description="thinkphp +workerman image"
+
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
 COPY ./  /app
