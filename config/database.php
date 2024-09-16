@@ -28,7 +28,7 @@ return [
             // 数据库名
             'database'        => env('mysql.database', ''),
             // 用户名
-            'username'        => env('mysql.username', 'root'),
+            'username'        => env('mysql.user', 'root'),
             // 密码
             'password'        => env('mysql.password', ''),
             // 端口
